@@ -6,6 +6,9 @@ import UIKit
 
 //MARK: for- in loop خمس مرات باستخدام ال "iOS" قم بطباعه
 
+for in 5 {
+    print ("iOS")
+}
 
 
 
@@ -16,18 +19,20 @@ import UIKit
 func Multiplication(  number1 : Int ,  number2 : Int)
 {
     
-    return number1 * number2
+    return (number1 * number2)
 }
 // MARK:   بما يناسب صيغه هذا الاستدعاء Multiplication قم بتعديل  الداله
 
-Multiplication(5,7)
+Multiplication(number1: 5,number2: 7)
 
 
 
 
 //: # 3️⃣ struct
 // struct...
-
+struct Student {
+    var name: String, age: Int, hobbies: [String]
+}
 
 
 // MARK:  الكائن  object مبنية علي هذي struct  قم بكتابة كود ال
